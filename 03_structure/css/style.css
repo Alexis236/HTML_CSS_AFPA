@@ -1,0 +1,174 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: roboto;
+}
+
+header {
+  width: 100%;
+  margin: auto;
+  height: 10vh;
+  background-color: #04730a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  height: 8vh;
+  width: auto;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(177, 231, 218);
+  align-items: center;
+  flex-grow: 1;
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+}
+
+footer {
+  width: 100%;
+  margin: auto;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(8, 46, 17);
+  color: white;
+}
+
+#toggle {
+  display: none;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 25px;
+  width: 100%;
+  height: 10vh;
+  background: #29703b;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  background: #438048;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: flex;
+  align-items: center;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 40px;
+}
+
+nav li:hover {
+  background-color: rgb(45, 69, 19);
+}
+
+.box {
+  width: 20%;
+  height: 20%;
+  margin: auto;
+  background-color: #438048 ;
+  text-align: center;
+  color: aliceblue;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color:aliceblue;
+  width: 40%;
+  height: 50vh;
+  margin: 5px auto;
+}
+
+
+
+
+/* Media Queries Tablette */
+@media screen and (max-width:768px) {
+  .container {
+  width: 100%;
+}
+
+  .box {
+    width: 45%;
+  }
+}
+
+
+/* Media Queries Smartphone */
+@media screen and (max-width:550px) {
+
+  nav ul {
+    display: none;
+  }
+
+  label::before {
+    content:"☰"
+  }
+
+  label {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+
+  .box {
+    width: 90%;
+
+      }
+
+  #toggle:checked~nav label::before {
+    content : "X";
+  }
+
+  #toggle:checked~nav ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    z-index: 10;
+  }
+
+  #toggle:checked~nav ul li{
+    background-color: #04730a;
+    padding: 5%;
+  }
+
+  }
+
+
+
+
+/* Media Queries Smartphone */
+@media print {
+  header {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+}

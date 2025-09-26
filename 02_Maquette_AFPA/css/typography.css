@@ -1,0 +1,37 @@
+@font-face {
+
+    font-family: 'Gotham';
+
+    src: url('../fonts/gotham/Gotham-Medium.otf') format('truetype');
+
+    font-weight: 400;
+
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+
+    font-family: 'Gotham';
+
+    src: url('../font/gotham/Gotham-Light.ttf') format('truetype');
+
+    font-weight: 300;
+
+    font-style: normal;
+
+}
+
+@font-face {
+
+    font-family: 'Gotham';
+
+    src: url('../font/gotham/Gotham-Medium') format('truetype');
+
+    font-weight: 300;
+
+    font-style: normal;
+
+}

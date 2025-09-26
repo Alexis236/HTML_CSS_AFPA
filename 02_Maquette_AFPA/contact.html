@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nous contacter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/typography.css">
+</head>
+<body>
+    <header id="header">
+        <img src="ressources/logo.png" alt="logo">
+        <input type="checkbox" id="toggle">
+        <nav>
+            <label for="toggle" id="label_nav"></label>
+            <ul>
+                <li><a href="index.html" alt="Accueil">Accueil</a></li>
+                <li><a href="formation.html" alt="Formation">Formation développeur Web</a></li>
+                <li><a href="temoignages.html" alt="Témoignages">Témoignages</a></li>
+                <li><a href="references.html" alt="Nos références">Nos références</a></li>
+                <li><a href="contact.html" alt="Nous contacter">Nous contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- Menu de navigation --> 
+
+
+    <section id="hero_contact">
+        <h1>Contact</h1><br>
+
+        <hr>
+    </section>
+<!-- Section hero -->
+
+
+    
+    <form action="post" id="form">
+        <section id="contact">
+            <section id="infos">
+                <h3>Infos générales</h3>
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom">
+                    <label for="adressemail">Adrese mail :</label>
+                    <input type="email" id="adressemail">
+                    <label for="tel">Numéro de téléphone :</label>
+                    <input type="tel" id="tel">
+            </section>
+
+            <section class="radio">
+                    <h3>Situation</h3>
+                    
+                    <div>
+                        <input type="radio" id="demandeur emploi" name="situation" value="demandeur emploi">
+                        <label for="demandeur emploi">Demandeur emploi</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="salarie en transition professionnelle" name="situation" value="salarie en transition professionnelle">
+                        <label for="salarie en transition professionnelle">Salarié en transition professionnelle</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="autre" name="situation" value="autre">
+                        <label for="autre">Autre</label>
+                    </div>
+            </section>
+
+            <section class="radio">
+                    <h3>Modalités d'apprentissages</h3>
+
+                    <div>
+                        <input type="radio" id="presentiel" name="apprentissage" value="presentiel">
+                        <label for="presentiel">En centre de formation (présentiel)</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="distance" name="apprentissage" value="distance">
+                        <label for="distance">100% à distance</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="alternance" name="apprentissage" value="alternance">
+                        <label for="alternance">En contrat d’alternance avec l’entreprise</label>                    
+                    </div>
+                    <div>
+                        <input type="radio" id="sans" name="apprentissage" value="sans">
+                        <label for="sans">Sans préférence</label>
+                    </div>
+            </section>
+
+            <section class="radio">
+                    <h3>Région d'origine</h3>
+                    <label for="region"></label>
+                    <select id="region" name="region">
+                        <option value="bretagne">Bretagne</option>
+                        <option value="normandie">Normandie</option>
+                        <option value="haut">Hauts de France</option>
+                    </select>
+            </section>
+        </section>
+
+        <input type="submit" value="Envoyer" id="submit">
+    </form>
+<!-- Section formaulaire de contact-->
+
+
+    <footer id="footer">
+        <nav>
+            <ul>
+                <li><a href="index.html" alt="Accueil">Accueil</a></li>
+                <li><a href="formation.html" alt="Formation">Formation développeur Web</a></li>
+                <li><a href="temoignages.html" alt="Témoignages">Témoignages</a></li>
+                <li><a href="references.html" alt="Nos références">Nos références</a></li>
+                <li><a href="contact.html" alt="Nous contacter">Nous contacter</a></li>
+            </ul>
+        </nav>
+
+        <nav>
+            <ul>
+                <li><a href="CGU.html" alt="CGU">CGU</a></li>
+                <li><a href="mentions.html" alt="Mentions de confidentialitées">Mentions de confidentialitées</a></li>
+            </ul>
+        </nav>
+    </footer>
+<!-- Section footer-->
+    
+</body>
+</html>

@@ -1,0 +1,439 @@
+@import "typography.css";
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gotham', sans-serif;
+    width: 100%;
+    margin: 0% 0% 0% 0%;
+}
+
+button {
+    background-color: #86BD24;
+    padding: 1%;
+    border-radius: 30px;
+    border-color: #86BD24;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 0% 2% 0%;
+}
+
+header li {
+    margin-left: 3%;
+}
+
+header a {
+    color: black;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #86BD24;
+}
+
+header img {
+    width: 10%;
+    height: 10%;
+}
+
+#toggle {
+    display: none;
+}
+
+nav {
+    width: 70%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../ressources/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10% 5% 10% 5%;
+    color: antiquewhite;
+}
+
+#hero button {
+    width: 20%;
+}
+
+#hero a {
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+}
+
+#hero a:hover {
+    color: antiquewhite;
+}
+
+#presentation {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5% 0% 5% 0%;
+}
+
+#presentation img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 60%;
+    border-radius: 10%;
+}
+
+#presentation section {
+    margin: 5% 5% 5% 5%;
+    width: 40%;
+}
+
+
+#chiffres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #D9D9D9;
+    background-size: cover;
+    padding: 5% 0% 5% 0%;
+}
+
+.chiffres {
+    padding: 0% 10% 0%;
+    text-align: center;
+}
+
+#competences {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 5% 5% 5% 5%;
+}
+
+.competences_titre {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    margin: 3%;
+}
+
+.competences_titre hr {
+    width: 20%;
+}
+
+.competences {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 3%;
+    padding: 0% 2% 0% 2%;
+    width: 100%;
+}
+
+.competences section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 3%;
+    padding: 0% 2% 0% 2%;
+}
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #D9D9D9;
+    background-size: cover;
+    padding: 3% 10% 3% 10%;
+}
+
+footer nav {
+    width: 40%;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+footer li {
+    margin-top: 5%;
+}
+
+footer a {
+    color: black;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+
+
+
+#dev_web {
+    background-color: #86BD24;
+    color: black;
+    padding: 5% 15% 5% 15%;
+    text-align: center;
+}
+
+#dev_web h1 {
+}
+
+#dev_web h3 {
+}
+
+#dev_web hr {
+    color: black;
+    width: 20%;
+}
+
+
+
+#formation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#description_formation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 5% 10% 2% 10%;
+}
+
+#description_formation section {
+    width: 40%;
+    margin: 5% 5% 5% 5%;
+}
+
+#formation h3  {
+    margin-bottom: 3%;
+}
+
+#formation p {
+}
+
+.contact_redirect {
+    margin: 0% 40% 10% 40%;
+}
+
+.contact_redirect a {
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+}
+
+.contact_redirect a:hover {
+    color: antiquewhite;
+}
+
+
+
+
+
+#hero_temoignages {
+    background-color: #86BD24;
+    color: black;
+    padding: 5% 15% 5% 15%;
+    text-align: center;
+}
+
+#hero_temoignages h1 {
+}
+
+#hero_temoignages h3 {
+}
+
+#hero_temoignages hr {
+    width: 20%;
+}
+
+
+#temoignages {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10% 5% 10% 5%;
+}
+
+#temoignages section {
+    width: 25%;
+    margin: 0% 2% 0% 2%;
+    padding: 5% 3% 5% 3%;
+    background-color: #86BD24;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+#temoignages div {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+#temoignages section img {
+    width: 90px;
+    height: 90px;
+    border-radius: 30px;
+}
+
+#temoignages section p {
+}
+
+
+
+#hero_references {
+    background-color: #86BD24;
+    color: black;
+    padding: 5% 15% 5% 15%;
+    text-align: center;
+}
+
+#hero_references h1 {
+}
+
+#hero_references h3 {
+}
+
+#hero_references hr {
+    width: 20%;
+}
+
+
+#partenaires {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 5% 10% 5% 10%;
+}
+
+#partenaires img {
+    margin: 3% 2% 3% 2%;
+    
+}
+
+
+
+#hero_contact {
+    background-color: #86BD24;
+    color: black;
+    padding: 5% 15% 5% 15%;
+    text-align: center;
+}
+
+#hero_contact h1 {
+}
+
+#hero_contact hr {
+    width: 20%;
+}
+
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 5%;
+    background-color: #86BD24;
+    margin: 10% 10% 10% 10%;
+    border-radius: 30px;
+}
+
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-basis: 0;
+    width: 100%;
+    margin: 5% 0% 5% 0%;
+    
+}
+
+#contact section {
+    width: 32%;
+    padding: 2.5% 1% 2.5% 1%;
+    margin: 2.5% 1% 2.5% 1%;
+    border: black,1px,solid;
+    border-radius: 30px;
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+}
+
+#infos {
+    display: flex;
+    flex-direction: column;
+}
+
+#submit {
+    margin: 0% 45% 0% 45%;
+    padding: 1% 2% 1% 2%;
+}
+
+
+/* Media Queries Tablette */
+@media screen and (max-width:768px) {
+    #img_presentation {
+        width: 100%;
+    }
+
+        #presentation section {
+        width: 90%;
+    }
+}
+
+/* Media Queries Smartphone */
+@media screen and (max-width:550px) {
+
+    #header nav ul {
+        display: none;
+    }
+
+    #presentation section{
+        width: 90%;
+    }
+
+    #img_presentation {
+        width: 500px;
+        height: 400px;
+    }
+
+    #hero button {
+    width: 50%;
+    }
+
+    footer nav {
+    width: 80%;
+    }
+}

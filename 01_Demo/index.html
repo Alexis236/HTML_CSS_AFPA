@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alexis">
+    <meta name="keywords" content="html">
+    <link rel="stylesheet" href="fichier.css">
+    <title>Demo</title>
+</head>
+
+<header>
+    <nav> 
+        <a href="page2.html" title="page2">Page2</a>
+    </nav>
+</header>
+
+
+<body>
+    <h1>Coucou</h1>
+    <main>
+        <section>
+            <h2>Section 1</h2>
+            <p>J'ai faim, <strong>très faim</strong></p>
+            <!--Test d'utilisation de balise "inline" dans une balis "bloc"-->
+            <p>Hello World !</p>
+        </section>
+        <button><a href="page2.html#test lien table" title="test lien table">En savoir plus sur la table</a></button>
+        <br>
+        <section>
+            <ul>
+                <li>Chapitre 1</li>
+                <li>Chapitre 2</li>
+                <li>Chapitre 3</li>
+            </ul>
+            <button><a href="page2.html" title="page2">En savoir plus</a></button>
+        </section>
+        <br>
+        <section>
+            <ul id="test lien table">
+                <li>Chapitre 4</li>
+                <li>Chapitre 5</li>
+                <li>Chapitre 6</li>
+            </ul>
+        </section>
+        <button><a href="https://metis.afpa.fr/mod/collaborate/view.php?id=20849315" title="metis afpa">AFPA</a></button>
+    
+        <ul>
+            <li>Souris</li>
+            <li>Chiens</li>
+                <ul>
+                    <li>Bassets</li>
+                    <li>Caniches</li>
+                </ul>
+            <li>Félins</li>
+                <ul>
+                    <li>Lions</li>
+                    <li>Tigres</li>
+                    <li>Chats</li>
+                    <li>Chats sauvages</li>
+                    <li>Chats domestiques</li>
+                </ul>
+            <li>Chevaux</li>
+        </ul>
+
+        <img src="images/logo_windows.jpg" alt="Logo windows" title="logo_windows">
+        <figcaption>Logo windows</figcaption>
+
+        <br>
+
+        <fieldset>
+        <form action="http://bienvu.net/script.php" method="post">
+            <label for="nom">Nom: </label>
+            <input type="text" name="nom" id="nom">
+            <br>
+            <label for="message">Votre message </label>
+            <input type="text" name="message" id="message">
+            <input type="submit" value="envoyer">
+            <br>
+            <textarea name="commentaire" rows="5" cols="30">XML (Extensible Markup Language, ou Langage Extensible de Balisage) est le langage destiné à succéder à HTML sur le World Wide Web. Comme HTML (Hypertext Markup Language)</textarea>
+
+            <br>
+            <input type="checkbox" name="couleur1" value="Bleu"> Bleu
+            <input type="checkbox" name="couleur2" value="Rouge"> Rouge
+            <br>
+            <select name="couleur3">
+                <option value="Rouge">Rouge</option>
+                <option value="Bleu">Bleu</option>
+            </select>
+        </form>
+
+        <form action="http://bienvu.net/script.php" method="post" enctype="multipart/form-data">
+            <input type="file" name="fichier">
+        </form>
+        </fieldset>
+
+        <section>
+            label>Sélectionnez votre métier</label>
+            <input type="text" name="metiers1" id="metiers2" list="metiers3"><br>
+            <datalist id="metiers3">
+                <option value="webmaster">
+                <option value="développeur">
+                <option value="administrateur B.D.D.">
+            </datalist>
+
+            <form method="post" action="post.php" id="monform" onsubmit="resultat.value 
+                = parseInt(nombre1.value) + parseInt(nombre2.value); return false;">
+                <input type="number" name="nombre1" id="nombre1"> + <input type="number" 
+                name="nombre2" id="nombre2"> = <output for="number1 number2" 
+                name="resultat" form="monform"></output><br><br>
+            <input type="submit" name="envoi" value="Calculer">
+            </form>
+        </section>
+    </main>
+</body>
+
+<footer>
+    <hr>
+    <p>Informations du Footer</p>
+</footer>
+
+</html>

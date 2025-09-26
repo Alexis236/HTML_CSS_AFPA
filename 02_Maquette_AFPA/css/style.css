@@ -1,0 +1,572 @@
+@import "typography.css";
+
+
+body {
+    font-family: 'Gotham', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0% 0% 0% 0%;
+}
+
+button {
+    margin-top: 10%;
+    background-color: #86BD24;
+    padding: 1%;
+    border-radius: 30px;
+    border-color: #86BD24;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 0% 2% 0%;
+}
+
+#toggle {
+    display: none;
+}
+
+header li {
+    margin-left: 3%;
+}
+
+header a {
+    color: black;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header a:hover {
+    color: #86BD24;
+}
+
+header img {
+    display: block;
+    width: 20%;
+}
+
+nav {
+    width: 70%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+
+#hero {
+    background-image: url("../ressources/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10% 5% 10% 5%;
+    color: antiquewhite;
+}
+
+
+
+#hero a {
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+    margin: 2% 3% 2% 3%;
+}
+
+#hero a:hover {
+    color: antiquewhite;
+}
+
+#presentation {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 150%;
+    margin: 5% 0% 5% 0%;
+}
+
+#presentation h3 {
+    font-size: 30px;
+}
+
+#presentation img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+#presentation section {
+    margin: 5% 5% 5% 5%;
+    width: 80%;
+}
+
+
+#chiffres {
+    display: flex;
+    justify-content: center;
+    background-color: #D9D9D9;
+    background-size: cover;
+    padding: 5% 0% 5% 0%;
+}
+
+#chiffres section {
+    padding: 0% 10% 0%;
+    text-align: center;
+}
+
+#chiffres p {
+    font-size: 300%;
+    font-weight: 700;
+}
+
+#chiffres h5 {
+    font-weight: 500;
+    font-size: 180%;
+}
+
+#competences {
+    padding: 5% 5% 5% 5%;
+}
+
+.competences_titre {
+    text-align: center;
+    font-size: 200%;
+}
+
+.competences_titre hr {
+    width: 20%;
+    margin-bottom: 5%;
+}
+
+.competences {
+    display: flex;
+    text-align: center;
+}
+
+.competences section {
+    margin: 3%;
+    padding: 0% 2% 0% 2%;
+}
+
+.competences h3 {
+    font-size: 150%;
+    font-weight: 500;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #D9D9D9;
+    background-size: cover;
+    padding-bottom: 3%;
+}
+
+footer nav {
+    text-align: center;
+    align-content: center;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+}
+
+footer li {
+    margin-top: 5%;
+}
+
+footer a {
+    color: black;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+
+
+#dev_web {
+    background-color: #86BD24;
+    color: black;
+    padding: 5% 15% 5% 15%;
+    text-align: center;
+}
+
+#dev_web h1 {
+    font-size: 40px;
+}
+
+#dev_web h3 {
+    font-weight: 400;
+}
+
+#dev_web hr {
+    color: black;
+    width: 20%;
+}
+
+
+
+#formation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#description_formation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 5% 10% 2% 10%;
+}
+
+#description_formation section {
+    width: 40%;
+    margin: 5% 5% 5% 5%;
+}
+
+#formation h3 {
+    font-size: 24px;
+    margin-bottom: 3%;
+}
+
+#formation p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.contact_redirect {
+    margin: 0% 40% 10% 40%;
+}
+
+.contact_redirect a {
+    font-size: 20px;
+    font-weight: 500;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+}
+
+.contact_redirect a:hover {
+    color: antiquewhite;
+
+}
+
+
+
+
+
+#hero_temoignages {
+    background-color: #86BD24;
+    color: black;
+    padding: 5% 15% 5% 15%;
+    text-align: center;
+}
+
+#hero_temoignages h1 {
+    font-size: 40px;
+}
+
+#hero_temoignages h3 {
+    font-weight: 400;
+}
+
+#hero_temoignages hr {
+    width: 20%;
+}
+
+
+#temoignages {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10% 5% 10% 5%;
+}
+
+#temoignages section {
+    width: 25%;
+    margin: 0% 2% 0% 2%;
+    padding: 5% 3% 5% 3%;
+    background-color: #86BD24;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+#temoignages div {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+#temoignages section img {
+    width: 90px;
+    height: 90px;
+    border-radius: 30px;
+}
+
+#temoignages section p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+
+#hero_references {
+    background-color: #86BD24;
+    color: black;
+    padding: 5% 15% 5% 15%;
+    text-align: center;
+}
+
+#hero_references h1 {
+    font-size: 40px;
+}
+
+#hero_references h3 {
+    font-weight: 400;
+}
+
+#hero_references hr {
+    width: 20%;
+}
+
+
+#partenaires {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 5% 10% 5% 10%;
+}
+
+#partenaires img {
+    margin: 3% 2% 3% 2%;
+
+}
+
+
+
+#hero_contact {
+    background-color: #86BD24;
+    color: black;
+    padding: 5% 15% 5% 15%;
+    text-align: center;
+}
+
+#hero_contact h1 {
+    font-size: 40px;
+}
+
+#hero_contact hr {
+    width: 20%;
+}
+
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 5%;
+    background-color: #86BD24;
+    margin: 10% 10% 10% 10%;
+    border-radius: 30px;
+}
+
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-basis: 0;
+    width: 100%;
+    margin: 5% 0% 5% 0%;
+
+}
+
+#contact section {
+    flex-wrap: wrap;
+    width: 32%;
+    padding: 2.5% 1% 2.5% 1%;
+    margin: 2.5% 1% 2.5% 1%;
+    border: black, 1px, solid;
+    border-radius: 30px;
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+}
+
+#infos {
+    display: flex;
+    flex-direction: column;
+}
+
+#submit {
+    margin: 0% 45% 0% 45%;
+    padding: 1% 2% 1% 2%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    nav ul {
+        display: none;
+    }
+
+    #label_nav::before {
+    content:"☰"
+    }
+
+    #label_nav {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    }
+
+    #toggle:checked~nav label::before {
+    content : "X";
+    }
+
+    #toggle:checked~nav ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    z-index: 10;
+    }
+
+    #toggle:checked~nav ul li{
+    background-color: white;
+    padding: 5%;
+    color: black;
+    }
+
+    #presentation {
+        flex-direction: column;
+    }
+
+    #chiffres {
+        flex-direction: column;
+    }
+
+    .competences {
+        flex-direction: column;
+    }
+
+    #description_formation section {
+        margin: 0% 0% 0% 0%;
+        width: 100%;
+    }
+
+    .contact_redirect {
+        margin: 0% 20% 10% 20%;
+    }
+
+    #temoignages {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #temoignages section {
+        width: 80%;
+        margin-top: 5%;
+    }
+
+    #contact {
+        flex-direction: column;
+    }
+
+    #contact section {
+        width: 90%;
+        font-size: 10px;
+    }
+
+    .radio label {
+        font-size: 10px;
+    }
+
+    #submit {
+        margin: 0% 20% 0% 20%;
+    }
+
+    #footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (max-width: 360px) {
+
+
+    #presentation {
+        flex-direction: column;
+    }
+
+    #chiffres {
+        flex-direction: column;
+    }
+
+    .competences {
+        flex-direction: column;
+    }
+
+    #description_formation {
+        flex-direction: column;
+    }
+
+    #description_formation section {
+        margin: 0% 0% 0% 0%;
+        width: 100%;
+    }
+
+    #temoignages {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #temoignages section {
+        width: 80%;
+        margin-top: 5%;
+    }
+
+    #contact {
+        flex-direction: column;
+    }
+
+    #contact section {
+        width: 80%;
+    }
+
+    .radio label {
+        font-size: 10px;
+    }
+
+    #submit {
+        margin: 0% 20% 0% 20%;
+    }
+
+    #footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact_redirect {
+        margin: 0% 20% 10% 20%;
+    }
+}
